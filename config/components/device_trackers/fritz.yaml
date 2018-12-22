@@ -1,0 +1,17 @@
+---
+# The fritz platform offers presence detection by looking at connected devices to a AVM Fritz!Box based router.
+#
+# I have a Fritz!Box 7940, which tracks all my devices.
+# Guest Mode isn't enabled. To-Do in next apartment!
+#
+# https://www.home-assistant.io/components/device_tracker.fritz/
+#
+platform: fritz
+
+# See the device tracker component page for instructions how to configure the people to be tracked.
+# https://www.home-assistant.io/components/device_tracker/
+
+# I really don't want to track each device that enters my WiFi
+new_device_defaults:
+  track_new_devices: false
+  hide_if_away: false

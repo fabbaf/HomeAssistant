@@ -15,6 +15,7 @@ config/.config_entries.json
 config/.homekit.state
 config/.ios.conf
 config/.spotify-token-cache
+config/harmony_media_center.conf
 config/ip_bans.yaml
 config/known_devices.yaml
 config/options.xml

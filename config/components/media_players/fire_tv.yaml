@@ -1,0 +1,9 @@
+---
+# This component allows me to control my Amazon Fire TV from Home Assistant
+#
+# https://www.home-assistant.io/components/media_player.firetv/
+#
+platform: firetv
+name: livingroom__fire_tv
+host: !secret media_player__fire_tv_host
+adbkey: "/config/.android/adbkey"

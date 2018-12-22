@@ -1,0 +1,7 @@
+---
+name: work
+latitude: !secret zone__work_latitude
+longitude: !secret zone__work_longitude
+radius: 50
+passive: false
+icon: mdi:briefcase
